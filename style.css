@@ -1,0 +1,43 @@
+.grid{
+    border: 10px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 140px;
+}
+
+.base{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.base1{
+    display: flex;
+    height: 200px;
+    /*width: 240px;*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+h3{
+    font-family: 'Gamja Flower', cursive;
+    font-size: 35px;
+}
+
+.player-one{
+    background-color: #D21312;
+    border-radius: 10px;
+}
+.player-two{
+    background-color: #1D267D;
+    border-radius: 10px;
+}
